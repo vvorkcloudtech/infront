@@ -1,7 +1,12 @@
 import React from "react";
-
-const Nav = () => {
-  return <div>THis is nav</div>;
+import { Link } from "react-router-dom";
+export const Nav = () => {
+  return (
+    <div>
+      THis is nav
+      <Link to="digital-marketing-sem">Digital</Link>
+    </div>
+  );
 };
 
-export default Nav;
+// export default Nav;
